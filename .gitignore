@@ -1,0 +1,6 @@
+_tmp
+renv/*
+!renv/activate.R
+.Renviron
+*.Rproj
+
