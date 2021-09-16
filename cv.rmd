@@ -92,7 +92,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Chunyun Ma {#title}
+Chunyun Ma, PhD {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -201,6 +201,14 @@ CV %<>% print_section('publication')
 <!-- CV %<>% print_links() -->
 <!-- ``` -->
 
+Awards and Scholarships {data-icon=award}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('award')
+```
+
+
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -208,3 +216,5 @@ Education {data-icon=graduation-cap data-concise=true}
 ```{r}
 CV %<>% print_section('education')
 ```
+
+

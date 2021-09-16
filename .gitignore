@@ -5,4 +5,5 @@ renv/*
 *.Rproj
 .Rproj*
 .Rhistory
+cv.html
 
