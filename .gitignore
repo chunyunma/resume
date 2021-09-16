@@ -3,4 +3,6 @@ renv/*
 !renv/activate.R
 .Renviron
 *.Rproj
+.Rproj*
+.Rhistory
 
