@@ -217,4 +217,7 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
+```{r}
+CV %<>% print_links()
+```
 
