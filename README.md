@@ -17,6 +17,9 @@ following this [discussion](https://github.com/nstrayer/datadrivencv/issues/68).
 - To feed data into the resume from a googlesheet,
 I need to get the "editor" share link of the googlesheet.
 
+- To deploy the resume on [netlify](https://www.netlify.com),
+I changed the output file from `cv.html` to `index.html` in `render_cv.r`.
+
 The first two adjustments are only temporary as I expect 
 the upcoming package update will fix those issues.
 
