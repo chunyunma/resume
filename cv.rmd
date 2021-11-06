@@ -131,6 +131,13 @@ CV %<>% print_text_block("intro")
 <!-- <br> -->
 <!-- <br> -->
 
+Selected Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('professional_experience')
+```
+
 Selected Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -142,13 +149,6 @@ Selected Teaching Experience {data-icon=chalkboard-teacher}
 
 ```{r}
 CV %<>% print_section('teaching')
-```
-
-Selected Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('professional_experience')
 ```
 
 
